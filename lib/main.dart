@@ -1,6 +1,7 @@
 // Teyvat Travel Guide
 
 import 'package:flutter/cupertino.dart';
+import 'package:genshin_app/screens/main_screen.dart';
 import 'package:genshin_app/screens/welcome_screen.dart';
 
 void main() {
@@ -16,11 +17,14 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       title: "Teyvat Travel Guide",
       theme: CupertinoThemeData(
-        brightness: Brightness.light,
-        scaffoldBackgroundColor: CupertinoColors.darkBackgroundGray,
+        brightness: Brightness.dark,
         primaryColor: CupertinoColors.activeBlue,
+        primaryContrastingColor: CupertinoColors.white,
+        scaffoldBackgroundColor: CupertinoColors.darkBackgroundGray,
       ),
-      home: WelcomeScreen(),
+      home: Center(
+        child: Text("hello"),
+      ),
     );
   }
 }
