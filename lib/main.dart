@@ -1,6 +1,8 @@
 // Teyvat Travel Guide
 
-import 'package:flutter/cupertino.dart';
+import 'package:flutter/material.dart';
+
+import 'homepage.dart';
 
 void main() {
   runApp(const MyApp());
@@ -11,17 +13,10 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const CupertinoApp(
+    return const MaterialApp(
       debugShowCheckedModeBanner: false,
-      title: "Teyvat Travel Guide",
-      theme: CupertinoThemeData(
-        brightness: Brightness.dark,
-        primaryColor: CupertinoColors.activeBlue,
-        primaryContrastingColor: CupertinoColors.white,
-        scaffoldBackgroundColor: CupertinoColors.darkBackgroundGray,
-      ),
-      home: Center(
-        child: Text("hello"),
+      home: Scaffold(
+        body: HomePage(),
       ),
     );
   }
