@@ -1,8 +1,7 @@
 // Teyvat Travel Guide
 
 import 'package:flutter/material.dart';
-
-import 'package:genshin_app/screens/mainscreen.dart';
+import 'package:teyvat_travel_guide/screens/mainscreen.dart';
 
 void main() {
   runApp(const MyApp());
