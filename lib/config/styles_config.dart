@@ -16,6 +16,8 @@ final kMontserratLight = GoogleFonts.montserrat(
 );
 
 // colors
-const kColorGold = '#D3BC8E';
-const kColorBlack = '#1E1E1E';
+const kColorBlue = '#5F76FF';
+const kColorBlack = '#242424';
 const kColorWhite = '#FFFFFF';
+const kColorGrey = '#2F2F2F';
+const kColorLightGrey = '#717274';
