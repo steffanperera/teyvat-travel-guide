@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart';
 
-class Feed extends StatelessWidget {
-  const Feed({super.key});
+class TestScreen extends StatelessWidget {
+  const TestScreen({super.key});
 
   @override
   Widget build(BuildContext context) {
     return const Center(
-      child: Text("Feed"),
+      child: Text("data"),
     );
   }
 }
