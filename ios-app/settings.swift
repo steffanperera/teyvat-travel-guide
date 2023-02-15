@@ -1,4 +1,10 @@
 // settings.swift
 
 import Swift  
-print("Teyvat Travel Guide")  
+
+func testFunction() -> {
+  let test = "Teyvat Travel Guide"
+  return test
+}
+
+print(testFunction)
