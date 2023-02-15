@@ -1,6 +1,5 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:teyvat_travel_guide/models/test_model.dart';
 
 class Dashboard extends StatefulWidget {
   const Dashboard({super.key});
@@ -10,10 +9,6 @@ class Dashboard extends StatefulWidget {
 }
 
 class _DashboardState extends State<Dashboard> {
-  static List<TestModle> main_test_list = [
-    TestModle("Yoimiya", )
-  ];
-
   void updateList(String value) {}
 
   @override
