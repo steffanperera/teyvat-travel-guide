@@ -1,6 +1,7 @@
 // Teyvat Travel Guide
 
 import 'package:flutter/material.dart';
+import 'package:teyvat_travel_guide/screens/dashboard.dart';
 import 'package:teyvat_travel_guide/screens/testscreen.dart';
 
 void main() {
@@ -16,10 +17,7 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       title: 'Teyvat Travel Guide',
       theme: ThemeData(fontFamily: 'Mulish'),
-      home: const Scaffold(
-        backgroundColor: Color(0xFF242424),
-        body: TestScreen(),
-      ),
+      home: const Dashboard(),
     );
   }
 }
